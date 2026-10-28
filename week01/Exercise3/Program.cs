@@ -28,7 +28,7 @@ class Program
             }
         else
             {
-                Console.WriteLine("Your guessed it ");
+                Console.WriteLine("Your guessed it! ");
                 Console.WriteLine($"You guessed {guess_count} times");
             }
         

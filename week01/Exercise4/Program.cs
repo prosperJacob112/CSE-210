@@ -21,7 +21,7 @@ class Program
 
         while (number != quit)
         {
-            Console.Write("Enter your guess: ");
+            Console.Write("Enter your number: ");
             number = int.Parse(Console.ReadLine());
 
             if (number != 0)
@@ -41,6 +41,15 @@ class Program
             largest = numbers.Max();
             Console.WriteLine($"The largest number is: {largest}");
             Console.WriteLine();
+
+            int smallestPositive = numbers
+              .Where(n => n > 0)
+              .Min();
+            Console.WriteLine($"The smallest positive number is: {smallestPositive}");
+
+            Console.WriteLine("The sorted list are: ");
+            foreach (int num in numbers )
+             Console.WriteLine($"{num}");
         }
         else
         {

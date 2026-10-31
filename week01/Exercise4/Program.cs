@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Console.WriteLine("Hello World! This is the Exercise4 Project.");
+        Console.WriteLine("Hello World! This is the Exercise4 Project.");
 
         int quit = 0;
 

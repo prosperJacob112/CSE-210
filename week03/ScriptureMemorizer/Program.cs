@@ -32,9 +32,8 @@ public class Program
 
             string input = Console.ReadLine();
 
-            if (input != null && input.Trim().Equals(
-                    "quit",
-                    StringComparison.OrdinalIgnoreCase))
+            if (input != null && input.Trim().Equals( "quit", StringComparison.OrdinalIgnoreCase))
+                    
             {
                 break;
             }
